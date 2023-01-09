@@ -80,9 +80,5 @@ namespace FragmentWalkThrough1
             Log.Debug("PlayQuoteActivity", " --> OnDestroy");
 
         }
-
-
-
-
     }
 }

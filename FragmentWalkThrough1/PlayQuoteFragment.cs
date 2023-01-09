@@ -98,21 +98,19 @@ namespace FragmentWalkThrough1
             Log.Debug("QuoteFragment", " --> OnResume");
 
         }
-
+    
         public override void OnPause()
         {
             base.OnPause();
             Log.Debug("QuoteFragment", " --> OnPause");
 
         }
-
         public override void OnStop()
         {
             base.OnStop();
             Log.Debug("QuoteFragment", " --> OnStop");
 
         }
-
         public override void OnSaveInstanceState(Bundle outState)
         {
             base.OnSaveInstanceState(outState);
@@ -131,7 +129,6 @@ namespace FragmentWalkThrough1
             Log.Debug("QuoteFragment", " --> OnDestroy");
 
         }
-
         public override void OnDetach()
         {
             base.OnDetach();
